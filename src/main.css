@@ -1,12 +1,16 @@
 header {
-    background-color: blue;
+    background-color: pink;
   }
   
   body {
     background-color: #f3f3f3;
+   
+  }
+
+  #main {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    
+    grid-template-columns: 12.5% 75% 12.5%;
+    grid-template-rows: 33% 33% 33%
   }
   
   
