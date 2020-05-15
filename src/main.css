@@ -1,3 +1,17 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2em;
+}
+
 header {
   background-color: #eeeeee;
   text-align: center;
@@ -13,10 +27,29 @@ img {
     padding: 1em;
 }
 
+li {
+    padding: 0.5em;
+}
+
 #main {
   display: grid;
+  width: 100%;
+  height: auto;
+  background-color: white;
   grid-template-columns: 2.5% 95% 2.5%;
   grid-template-rows: 12.5% 75% 12.5%;
+}
+
+#main-body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    text-align: left;
+    grid-template-rows: 12.5% 75% 12.5%; 
+}
+
+#img-div {
+    width: 100%;
+    height: auto;
 }
 
 #sidebarOne {
